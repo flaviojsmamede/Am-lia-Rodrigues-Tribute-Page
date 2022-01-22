@@ -1,0 +1,60 @@
+body {
+  max-width: 700px;
+  width: 70%;
+  background: black;
+  color: gray;
+  font-family: roboto, sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px;
+  color: white;
+}
+
+header h1 {
+  margin-bottom: -5px;
+}
+
+header, figcaption, h1, h3, blockquote, footer {
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+  background-color: rgb(255, 255, 255, 20%);
+  padding-bottom: 20px;
+}
+
+img {
+  padding: 20px;
+  width: 70%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+ul {
+  list-style-type: none;
+}
+
+blockquote {
+  background-color: rgba(255, 255, 255, 20%);
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+a {
+  color: brown;
+  ;
+}
+
+a:hover {
+  text-decoration: none;
+}
